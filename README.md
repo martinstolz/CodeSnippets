@@ -5,15 +5,15 @@ Clone the repository into the following path:
     cd ~/Library/Developer/Xcode/UserData/CodeSnippets
     git clone git@github.com:martinstolz/CodeSnippets.git .
 
-(Or use the install script to copy all Xcode code snippets to the appropriate folder:
+(Or use the copy script to copy all Xcode code snippets to the appropriate folder:
 
-    sh .install.sh
+    sh .copySnippets.sh
 
 ### Installing the pre-commit hook
 This README is generated automatically using `.generateDescription.py`.
 To run this script automatically before each commit, install the pre-commit hook like this:
 
-    sh .install-precommit-hook.sh
+    sh .installPrecommitHook.sh
 
 ### Snippet Descriptions
 

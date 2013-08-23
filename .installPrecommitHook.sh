@@ -15,6 +15,8 @@ cancel=false
 overwrite=false
 backup=false
 
+echo "Installing pre-commit hook to update the README on every commit"
+
 # ask what to do with existing file
 if [ -e "$target" ] || [ -h "$target" ]; then
     echo "A pre-commit hook already exists!"
