@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fori</string>
+	<string>forI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for (NSInteger i=0; i&lt;&lt;#count#&gt;; i++) {
+	<string>for (NSUInteger i = 0; i &lt; &lt;#count#&gt;; i++)
+{
     &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

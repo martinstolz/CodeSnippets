@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>format</string>
+	<string>stringWithFormat</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat: @"&lt;#string#&gt;", &lt;#param1#&gt;]</string>
+	<string>[NSString stringWithFormat:@"&lt;#string#&gt;", &lt;#param1#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1A2B60C4-C423-44D3-BD71-9834D7CEC64A</string>
 	<key>IDECodeSnippetLanguage</key>
