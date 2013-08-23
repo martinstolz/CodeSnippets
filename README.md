@@ -61,6 +61,98 @@ Creates a HeaderDoc like class comment
         @discussion
      */
 
+**collectionViewDataSource.codesnippet**  (Collection View Data Source)  
+Shortcut: `collectionViewDataSource`  
+Creates delegate methods of UICollectionView's data source
+
+    #pragma mark - Collection view data source
+    
+    - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+    {
+        <#code#>
+    }
+    
+    - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+    {
+        <#code#>
+    }
+    
+    - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+
+**collectionViewDelegate.codesnippet**  (Collection View Delegate)  
+Shortcut: `collectionViewDelegate`  
+Creates delegate methods of UICollectionView's delegate
+
+    #pragma mark - Collection view delegate
+    
+    - (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (BOOL)collectionView:(UICollectionView *)collectionView shouldDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView didEndDisplayingSupplementaryView:(UICollectionReusableView *)view forElementOfKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (BOOL)collectionView:(UICollectionView *)collectionView shouldShowMenuForItemAtIndexPath:(NSIndexPath *)indexPath
+    {
+        <#code#>
+    }
+    
+    - (BOOL)collectionView:(UICollectionView *)collectionView canPerformAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender
+    {
+        <#code#>
+    }
+    
+    - (void)collectionView:(UICollectionView *)collectionView performAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender
+    {
+        <#code#>
+    }
+
 **complexMethodComment.codesnippet**  (Complex Method Comment)  
 Shortcut: `docMethodComplex`  
 Creates a complex HeaderDoc method comment
