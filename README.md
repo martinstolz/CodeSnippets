@@ -1,21 +1,21 @@
-# CodeSnippets
+# Xcode Code Snippets
 
-These are my Xcode 4 CodeSnippets.  
-To use them, clone this repository into the following path:
+Clone the repository into the following path:
 
     cd ~/Library/Developer/Xcode/UserData/CodeSnippets
-    git clone git@github.com:jaydee3/CodeSnippets.git .
+    git clone git@github.com:martinstolz/CodeSnippets.git .
 
-(The folder must be empty, to clone the repository directly in it.)  
-And you're ready to go.
+(Or use the install script to copy all Xcode code snippets to the appropriate folder:
 
-#### Installing the pre-commit hook  
-This README is generated automatically using `.generateDescription.py`.  
+    sh .install.sh
+
+### Installing the pre-commit hook
+This README is generated automatically using `.generateDescription.py`.
 To run this script automatically before each commit, install the pre-commit hook like this:
 
     sh .install-precommit-hook.sh
 
-## Snippet Descriptions
+### Snippet Descriptions
 
 **addAChildViewcontroller.codesnippet**  (Add a child ViewController)  
 Shortcut: `childController`  
